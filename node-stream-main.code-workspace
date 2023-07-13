@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Downloads/node-stream-main/node-stream-main"
+		},
+		{
+			"path": "../../../node-stream"
+		},
+		{
+			"path": "../../../covid-19-insights-docs"
+		},
+		{
+			"path": "../../../../covid-19-insights-graphql-api"
+		},
+		{
+			"path": "../../../../covid-19-insights"
+		},
+		{
+			"path": "../Python"
+		},
+		{
+			"path": "../Prova1"
+		},
+		{
+			"path": "../../../../covid/covid-19-insights"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

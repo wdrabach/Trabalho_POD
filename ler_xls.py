@@ -2,7 +2,7 @@ import xlrd
 import numpy as np
 
 def read_xls_file():
-    file_path = '/home/rwietter/Documentos/python/.venv/RELATORIO_DTB_BRASIL_MUNICIPIO.xls'
+    file_path = 'RELATORIO_DTB_BRASIL_MUNICIPIO.xls'
     workbook = xlrd.open_workbook(file_path)
     worksheet = workbook.sheet_by_index(0)
 
@@ -15,6 +15,7 @@ def read_xls_file():
         data.append(row)
     
     return data
+
 
 # result = read_xls_file(file_path)
 

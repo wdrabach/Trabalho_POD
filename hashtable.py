@@ -9,6 +9,11 @@ def hashtable(columns):
         
 columns = read_xls_file()
 
-result = hashtable(columns)
+dicionario_cidades = hashtable(columns)
 
-print(result['Brasília'])
+cidade_nome = input("Digite o nome da cidade:")
+#print(read_xls_file())
+if cidade_nome in dicionario_cidades:
+  print("CÓD:==>>",dicionario_cidades[cidade_nome])
+else:
+  print("Cidade não encontrada")
